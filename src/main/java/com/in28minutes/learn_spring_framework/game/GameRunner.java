@@ -7,6 +7,10 @@ public class GameRunner {
     }
 
     public void run() {
-        System.out.printf("Running game "+ game);
+        System.out.println("Running game "+ game);
+        game.up();
+        game.down();
+        game.left();
+        game.right();
     }
 }
